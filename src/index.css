@@ -66,3 +66,24 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+/* Dark mode overrides */
+.app.light-mode {
+  background-color: #ffffff;
+  color: #213547;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.app.dark-mode {
+  background-color: #1a1a1a;
+  color: rgba(255, 255, 255, 0.87);
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+/* Ensure buttons adapt */
+.app.dark-mode button {
+  background-color: #333;
+  color: white;
+  border-color: #646cff;
+}
